@@ -23,7 +23,7 @@ _C.GPUS = (0,)
 _C.WORKERS = 4
 _C.PRINT_FREQ = 20
 _C.AUTO_RESUME = False
-_C.PIN_MEMORY = True
+_C.PIN_MEMORY = False
 _C.RANK = 0
 
 # Cudnn related params
