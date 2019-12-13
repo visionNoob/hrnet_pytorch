@@ -185,6 +185,26 @@ ${POSE_ROOT}
                 |-- ... 
 ```
 
+**For SPINE data**, Just like COCO
+```
+${POSE_ROOT}
+|-- data
+`-- |-- spine
+    `-- |-- annotations
+        |   |-- spine_keypoints_trainV1.json
+        |   `-- spine_keypoints_valV1.json
+        `-- images
+            |-- trainV1
+            |   |-- 000001.png
+            |   |-- 100001.png
+            |   |-- 100003.png
+            |   |-- ... 
+            `-- valV1
+                |-- 000002.png
+                |-- 100002.png
+                |-- 000003.png
+``` 
+
 ### Training and Testing
 
 #### Testing on MPII dataset using model zoo's models([GoogleDrive](https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing) or [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blW231MH2krnmLq5kkQ))
